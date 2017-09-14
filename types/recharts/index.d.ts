@@ -8,7 +8,7 @@
 import * as React from 'react';
 
 export type Percentage = string;
-export type RechartsFunction = () => void;
+export type RechartsFunction = (value?: any) => void;
 
 export type LegendType = 'line' | 'square' | 'rect' | 'circle' | 'cross' | 'diamond' | 'square' | 'star' | 'triangle' | 'wye' | 'none';
 export type LayoutType = 'horizontal' | 'vertical';
